@@ -125,7 +125,7 @@ header .bx-menu{
     display: flex;
     align-items: center;
     gap:2rem;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     padding: 2rem 0;
     padding-bottom: 3rem;
 }
@@ -139,7 +139,7 @@ header .bx-menu{
     border-radius: 1rem;
     box-shadow: 0.5rem, 1rem, rgba(0, 0, 0, 0.134);
     height: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 .about .row .img-container h3{
     position: absolute;
@@ -159,7 +159,7 @@ header .bx-menu{
     color: #333;
 }
 .about .row .content p{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: rgb(24, 24, 24);
     padding: 5rem 0;
     padding-top: 1rem;
@@ -244,6 +244,9 @@ header .bx-menu{
     }
     .home .content span{
         font-size: 1.5rem;
+    }
+    .about .row{
+        flex-wrap: wrap;
     }
 
 }
