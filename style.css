@@ -71,6 +71,9 @@ header .navbar a{
     padding:  0 1rem;
     color: whitesmoke;
 }
+header .navbar a:hover{
+    color: var(--aqua);
+}
 header .icon a{
     font-size: 2.5rem;
     color: whitesmoke;
