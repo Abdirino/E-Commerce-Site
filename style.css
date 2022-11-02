@@ -250,6 +250,57 @@ header .bx-menu{
     text-decoration: line-through;
 }
 
+.review  .box-contain{
+    /* width: 300px; */
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    gap: 1.5rem;
+}
+.review  .box-contain .box{
+    flex: 1 1 40rem;
+    box-shadow: 0.5rem 1.5rem rgba(0, 0, 0, 0.105);
+    border-radius: .5rem;
+    padding: 3rem 2rem;
+    position: relative;
+}
+.review  .box-contain .box .bxs-quote-right{
+    position: absolute;
+    bottom: 3rem; right: 3rem;
+    font-size: 5rem;
+    color: #eee;
+}
+.review  .box-contain .box i{
+    color: var(--aqua);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.review  .box-contain .box .stars p{
+    color: #999;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+.review  .box-contain .box .user{
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+.review  .box-contain .box .user img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+.review  .box-contain .box .user h3{
+    font-size: 2rem;
+    color: #333;
+}
+.review  .box-contain .box .user span{
+    font-size: 1.5rem;
+    color: #999;
+}
 
 
 
