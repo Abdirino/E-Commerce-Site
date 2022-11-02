@@ -263,6 +263,7 @@ header .bx-menu{
     border-radius: .5rem;
     padding: 3rem 2rem;
     position: relative;
+    margin-bottom: 10px;
 }
 .review  .box-contain .box .bxs-quote-right{
     position: absolute;
